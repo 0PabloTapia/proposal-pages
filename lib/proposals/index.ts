@@ -5,6 +5,8 @@ import agronomerAsesorSaas from "./agronomer-asesor-saas.config";
 import carlosAlvaradoSaludDomicilio from "./carlos-alvarado-salud-domicilio.config";
 import importadoraAltamiraControlInventario from "./importadora-altamira-control-inventario.config";
 import candimaniaDigital from "./candimania-digital.config";
+import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicliente-mvp.config";
+import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
 
 /**
  * Registry of all available proposals.
@@ -19,6 +21,8 @@ const proposals: ProposalConfig[] = [
   carlosAlvaradoSaludDomicilio,
   importadoraAltamiraControlInventario,
   candimaniaDigital,
+  plataformaAgentesIaMulticlienteMvp,
+  mauryJaimeComunicacionOfflineB2g,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
