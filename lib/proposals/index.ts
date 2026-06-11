@@ -7,6 +7,7 @@ import importadoraAltamiraControlInventario from "./importadora-altamira-control
 import candimaniaDigital from "./candimania-digital.config";
 import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicliente-mvp.config";
 import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
+import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-inteligente.config";
 
 /**
  * Registry of all available proposals.
@@ -23,6 +24,7 @@ const proposals: ProposalConfig[] = [
   candimaniaDigital,
   plataformaAgentesIaMulticlienteMvp,
   mauryJaimeComunicacionOfflineB2g,
+  drToothSistemaGestionInteligente,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
