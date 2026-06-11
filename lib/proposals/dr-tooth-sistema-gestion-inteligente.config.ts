@@ -112,15 +112,13 @@ const drToothSistemaGestionInteligente: ProposalConfig = {
     "Sprints de 2 semanas; cada fase estimada en 4–6 semanas de calendario (hasta 8 en integraciones o validación clínica)",
     "M2 y M3 requieren M1 Pro operativo; M4 es opcional al cierre",
     "NDA y separación estricta de propiedad intelectual clínica (IA y protocolos del cliente)",
-    "Plazos se extienden si el cliente no entrega insumos acordados en 5 días hábiles",
-    "Pago por fase: 40% inicio / 30% hito intermedio / 30% entrega",
   ],
   pricing: [
     {
       name: "PDF completo — M1 Pro + M2 + M3 (recomendado)",
       price: "USD 28,500",
       description:
-        "**Tiempo estimado: 7–9 meses (32–42 semanas secuenciales)**\n\nIncluye los tres módulos del documento del proyecto (M1 Pro, M2 y M3).\n\nEnfoque: plataforma integral alineada al documento del Dr. Tooth, con trazabilidad clínica, rentabilidad por caso, cobranza automatizada e integración con su agente de IA propietario.\n\nEstructura de pago sugerida: 30% firma / 25% CRM live / 25% finanzas live / 20% cierre M3.",
+        "**Tiempo estimado: 7–9 meses (32–42 semanas secuenciales)**\n\nIncluye los tres módulos del documento del proyecto (M1 Pro, M2 y M3).\n\nEnfoque: plataforma integral alineada al documento del Dr. Tooth, con trazabilidad clínica, rentabilidad por caso, cobranza automatizada e integración con su agente de IA propietario.\n\n",
       items: [
         "Fase 1 — Fundación + operación clínica: USD 5,500 · 5–6 sem",
         "Fase 2 — CRM clínico y seguimiento: USD 7,000 · 6–8 sem",
@@ -135,7 +133,7 @@ const drToothSistemaGestionInteligente: ProposalConfig = {
       name: "Plataforma ampliada — PDF completo + M4 (inventario y escala)",
       price: "USD 33,000",
       description:
-        "**Tiempo estimado: 8–10 meses (36–47 semanas secuenciales)**\n\nIncluye todo el PDF completo más el módulo opcional M4 (stock de materiales, consultas operativas, auditoría avanzada y preparación multi-sede/SaaS).\n\nAhorro vs. contratar fases sueltas: USD 2,000.\n\nEstructura de pago sugerida: 30% firma / 25% CRM live / 25% finanzas live / 20% cierre final.",
+        "**Tiempo estimado: 8–10 meses (36–47 semanas secuenciales)**\n\nIncluye todo el PDF completo más el módulo opcional M4 (stock de materiales, consultas operativas, auditoría avanzada y preparación multi-sede/SaaS).\n\nAhorro vs. contratar fases sueltas: USD 2,000.\n\n",
     },
     {
       name: "Por módulo — contratación escalonada",
@@ -160,20 +158,17 @@ const drToothSistemaGestionInteligente: ProposalConfig = {
   notIncluded: [
     "Desarrollo del agente de diagnóstico, prompts, bases de conocimiento o protocolos clínicos (propiedad del cliente)",
     "Cómputo, GPU y tokens del servidor de IA del cliente",
-    "Costos de infraestructura cloud (estimado USD 180–315/mes plataforma completa)",
-    "Mantenimiento humano post-entrega (estimado 12–15 h/mes)",
     "Comisiones por transacción de pasarelas de pago (% por cargo)",
     "Costos de WhatsApp Business / BSP más allá del alcance acordado",
     "Migración histórica completa desde Dental Link (cotizable aparte)",
     "App móvil nativa (web responsive en alcance actual)",
-    "M4 (inventario y escala) salvo contratación explícita",
     "Certificaciones regulatorias formales fuera del alcance acordado",
     "Funcionalidades no aprobadas en el alcance de cada fase",
   ],
   cta: {
     title: "Siguiente paso",
     description:
-      "Firmar NDA, validar el paquete PDF completo (USD 28,500) en la segunda reunión con el equipo técnico de Qubo, confirmar dependencias (pasarela, WhatsApp, API de IA) y coordinar kick-off de Fase 1.",
+      "Contactar a Qubo para coordinar la firma del NDA y la siguiente reunión.",
     primaryButton: "Revisar propuesta",
     secondaryButton: "Agendar segunda reunión",
   },
