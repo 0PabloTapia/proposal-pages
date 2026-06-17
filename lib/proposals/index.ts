@@ -5,6 +5,7 @@ import agronomerAsesorSaas from "./agronomer-asesor-saas.config";
 import carlosAlvaradoSaludDomicilio from "./carlos-alvarado-salud-domicilio.config";
 import importadoraAltamiraControlInventario from "./importadora-altamira-control-inventario.config";
 import candimaniaDigital from "./candimania-digital.config";
+import amstelappRioSpa from "./amstelapp-rio-spa.config";
 import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicliente-mvp.config";
 import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
 import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-inteligente.config";
@@ -22,6 +23,7 @@ const proposals: ProposalConfig[] = [
   carlosAlvaradoSaludDomicilio,
   importadoraAltamiraControlInventario,
   candimaniaDigital,
+  amstelappRioSpa,
   plataformaAgentesIaMulticlienteMvp,
   mauryJaimeComunicacionOfflineB2g,
   drToothSistemaGestionInteligente,

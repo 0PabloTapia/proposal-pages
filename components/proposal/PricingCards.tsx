@@ -51,10 +51,12 @@ function renderDescription(text: string) {
 export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
   const showPaymentCard =
     proposalSlug === "carlos-alvarado-salud-domicilio" ||
-    proposalSlug === "importadora-altamira-control-inventario";
+    proposalSlug === "importadora-altamira-control-inventario" ||
+    proposalSlug === "amstelapp-rio-spa";
   const showIncludesCard =
     proposalSlug === "importadora-altamira-control-inventario" ||
-    proposalSlug === "candimania-digital";
+    proposalSlug === "candimania-digital" ||
+    proposalSlug === "amstelapp-rio-spa";
   const showPhaseBreakdownCard = proposalSlug === "dr-tooth-sistema-gestion-inteligente";
 
   function getMiniCardTitle(): string {
