@@ -5,6 +5,7 @@ import agronomerAsesorSaas from "./agronomer-asesor-saas.config";
 import carlosAlvaradoSaludDomicilio from "./carlos-alvarado-salud-domicilio.config";
 import importadoraAltamiraControlInventario from "./importadora-altamira-control-inventario.config";
 import candimaniaDigital from "./candimania-digital.config";
+import amstelappRioSpa from "./amstelapp-rio-spa.config";
 
 /**
  * Registry of all available proposals.
@@ -19,6 +20,7 @@ const proposals: ProposalConfig[] = [
   carlosAlvaradoSaludDomicilio,
   importadoraAltamiraControlInventario,
   candimaniaDigital,
+  amstelappRioSpa,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {

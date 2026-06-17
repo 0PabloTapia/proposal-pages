@@ -51,8 +51,12 @@ function renderDescription(text: string) {
 export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
   const showPaymentCard =
     proposalSlug === "carlos-alvarado-salud-domicilio" ||
-    proposalSlug === "importadora-altamira-control-inventario";
-  const showIncludesCard = proposalSlug === "importadora-altamira-control-inventario" || proposalSlug === "candimania-digital";
+    proposalSlug === "importadora-altamira-control-inventario" ||
+    proposalSlug === "amstelapp-rio-spa";
+  const showIncludesCard =
+    proposalSlug === "importadora-altamira-control-inventario" ||
+    proposalSlug === "candimania-digital" ||
+    proposalSlug === "amstelapp-rio-spa";
 
   return (
     <section className="bg-[#140731] border-b border-[#2E1266] py-20 px-6">
@@ -80,7 +84,7 @@ export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
             "grid gap-6",
             plans.length === 1
               ? "max-w-sm"
-              : plans.length === 3
+              : plans.length === 3 || plans.length === 5
               ? "sm:grid-cols-3"
               : "sm:grid-cols-2"
           )}
