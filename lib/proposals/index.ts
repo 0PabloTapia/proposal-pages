@@ -6,6 +6,9 @@ import carlosAlvaradoSaludDomicilio from "./carlos-alvarado-salud-domicilio.conf
 import importadoraAltamiraControlInventario from "./importadora-altamira-control-inventario.config";
 import candimaniaDigital from "./candimania-digital.config";
 import amstelappRioSpa from "./amstelapp-rio-spa.config";
+import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicliente-mvp.config";
+import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
+import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-inteligente.config";
 
 /**
  * Registry of all available proposals.
@@ -21,6 +24,9 @@ const proposals: ProposalConfig[] = [
   importadoraAltamiraControlInventario,
   candimaniaDigital,
   amstelappRioSpa,
+  plataformaAgentesIaMulticlienteMvp,
+  mauryJaimeComunicacionOfflineB2g,
+  drToothSistemaGestionInteligente,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {

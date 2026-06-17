@@ -57,6 +57,16 @@ export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
     proposalSlug === "importadora-altamira-control-inventario" ||
     proposalSlug === "candimania-digital" ||
     proposalSlug === "amstelapp-rio-spa";
+  const showPhaseBreakdownCard = proposalSlug === "dr-tooth-sistema-gestion-inteligente";
+
+  function getMiniCardTitle(): string {
+    if (showPhaseBreakdownCard) return "Desglose de fases";
+    return "Qué incluye esta opción";
+  }
+
+  const showMiniCard = (plan: PricingPlan) =>
+    plan.items?.length &&
+    (showIncludesCard || (showPhaseBreakdownCard && plan.featured));
 
   return (
     <section className="bg-[#140731] border-b border-[#2E1266] py-20 px-6">
@@ -84,7 +94,7 @@ export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
             "grid gap-6",
             plans.length === 1
               ? "max-w-sm"
-              : plans.length === 3 || plans.length === 5
+              : plans.length === 3
               ? "sm:grid-cols-3"
               : "sm:grid-cols-2"
           )}
@@ -143,14 +153,14 @@ export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
                 {renderDescription(descriptionText)}
               </div>
 
-              {showIncludesCard && plan.items?.length ? (
+              {showMiniCard(plan) ? (
                 <div className="mb-6 rounded-xl border border-[#5B2FA0]/60 bg-[#1D0B47] p-4">
                   <p className="text-[11px] font-semibold tracking-widest uppercase text-[#C9ADFF]/70 mb-2">
-                    Qué incluye esta opción
+                    {getMiniCardTitle()}
                   </p>
                   <ul className="space-y-1.5 list-disc list-inside text-sm leading-relaxed text-[#E8DBFF]">
-                    {plan.items.map((item, itemIndex) => (
-                      <li key={itemIndex}>{renderBoldText(item).join("")}</li>
+                    {plan.items!.map((item, itemIndex) => (
+                      <li key={itemIndex}>{renderBoldText(item)}</li>
                     ))}
                   </ul>
                 </div>
