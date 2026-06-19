@@ -105,7 +105,7 @@ const rodrigoGomezAcademiaMulticlase: ProposalConfig = {
     "Fase 1 online-first: suficiente para escala proyectada sin sobreingeniería inicial",
     "Prioridad QR sobre NFC; torniquetes y pase único fuera de alcance",
     "Maestros registran entrada y cobran su clase sin visibilidad de montos recolectados",
-    "Separación clara entre entrada de desarrollo (USD 1,000) y mensualidad operativa (USD 400/mes)",
+    "Separación clara entre entrada de desarrollo (USD 1,000) y mensualidad operativa (USD 399/mes)",
     "La mensualidad incluye hosting, soporte, mantenimiento y ajustes menores — no es solo infraestructura",
     "Fase 2 y módulos avanzados se cotizan aparte tras validar operación real",
   ],
@@ -114,7 +114,7 @@ const rodrigoGomezAcademiaMulticlase: ProposalConfig = {
       name: "Fase 1 — MVP operativo (recomendado)",
       price: "USD 1,000 setup + USD 399/mes",
       description:
-        "**Entrada / setup:** USD 1,000 (pago único al firmar e iniciar — 100% al arrancar).\n\n**Mensualidad operativa:** USD 400/mes desde el go-live de Fase 1 (sistema en producción con usuarios reales).\n\nMoneda USD. IVA / impuestos locales según aplique en facturación final.\n\nLa mensualidad no es solo infraestructura: incluye hosting gestionado, monitoreo, backups, corrección de bugs, soporte en horario laboral, mantenimiento técnico, hasta 4 h/mes de ajustes menores y 1 despliegue menor/mes.",
+        "**Entrada / setup:** USD 1,000 (pago único al firmar e iniciar — 100% al arrancar).\n\n**Mensualidad operativa:** USD 399/mes desde el go-live de Fase 1 (sistema en producción con usuarios reales).\n\nMoneda USD. IVA / impuestos locales según aplique en facturación final.\n\nLa mensualidad no es solo infraestructura: incluye hosting gestionado, monitoreo, backups, corrección de bugs, soporte en horario laboral, mantenimiento técnico, hasta 4 h/mes de ajustes menores y 1 despliegue menor/mes.",
       items: [
         "Diseño funcional y arquitectura (wallet prepago + roles)",
         "Panel administración / recepción (recargas de saldo)",
