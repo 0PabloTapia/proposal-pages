@@ -9,6 +9,7 @@ import amstelappRioSpa from "./amstelapp-rio-spa.config";
 import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicliente-mvp.config";
 import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
 import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-inteligente.config";
+import rodrigoGomezAcademiaMulticlase from "./rodrigo-gomez-academia-multiclase.config";
 
 /**
  * Registry of all available proposals.
@@ -27,6 +28,7 @@ const proposals: ProposalConfig[] = [
   plataformaAgentesIaMulticlienteMvp,
   mauryJaimeComunicacionOfflineB2g,
   drToothSistemaGestionInteligente,
+  rodrigoGomezAcademiaMulticlase,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
