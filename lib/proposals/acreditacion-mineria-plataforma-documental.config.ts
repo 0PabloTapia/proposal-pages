@@ -145,7 +145,7 @@ const acreditacionMineriaPlataformaDocumental: ProposalConfig = {
       name: "MVP Operativo",
       price: "235 UF + IVA",
       description:
-        "**Plazo: 4 semanas.**\n\n**Valor referencial:** $9.594.000 CLP + IVA\n\n**¿Puedo dejar Excel y operar acreditación de punta a punta?**\n\nFlujo documental completo para **un mandante**, con requisitos fijos definidos en discovery (no configurables desde la plataforma). Ideal para salir de planillas y correos con un proceso real en producción.",
+        "**Plazo: 4 semanas.**\n\n**Valor referencial:** $9.594.000 CLP + IVA\n\n**¿Puedo dejar Excel y operar acreditación de punta a punta?**\n\nFlujo documental completo para **un mandante**, con requisitos fijos definidos en discovery (no configurables desde la plataforma). Ideal para salir de planillas y correos con un proceso real en producción.\n\n**Mantención mensual opcional:** Plan Operación **12 UF/mes** ($490.000 CLP) · Plan Operación + ajustes **18 UF/mes** ($735.000 CLP).\n\n\n\n**",
       items: [
         "Estructura multiempresa base (un mandante activo)",
         "Empresas, trabajadores y vehículos",
@@ -161,7 +161,7 @@ const acreditacionMineriaPlataformaDocumental: ProposalConfig = {
       name: "Multi-mandante",
       price: "315 UF + IVA",
       description:
-        "**Plazo: hasta 6–7 semanas.**\n\n**Valor referencial:** $12.860.000 CLP + IVA\n\n**¿Puedo atender varios clientes/faenas con reglas distintas?**\n\nIncluye todo el MVP más el **motor de requisitos configurables** — el diferenciador del negocio de acreditación. Opción sugerida para competir en licitación con operación real multi-mandante.",
+        "**Plazo: hasta 6–7 semanas.**\n\n**Valor referencial:** $12.860.000 CLP + IVA\n\n**¿Puedo atender varios clientes/faenas con reglas distintas?**\n\nIncluye todo el MVP más el **motor de requisitos configurables** — el diferenciador del negocio de acreditación. Su equipo configura mandantes y requisitos desde la plataforma. Opción sugerida para competir en licitación con operación real multi-mandante.\n\n**Mantención mensual:** **15 UF/mes** ($612.000 CLP).\n\n",
       items: [
         "Todo lo incluido en MVP Operativo",
         "Motor de requisitos configurables por cliente, faena o entidad",
@@ -175,7 +175,7 @@ const acreditacionMineriaPlataformaDocumental: ProposalConfig = {
       name: "Acreditador completo",
       price: "385 UF + IVA",
       description:
-        "**Plazo: hasta 8 semanas.**\n\n**Valor referencial:** $15.718.000 CLP + IVA \n\n**¿Puedo escalar, auditar y conectar con otros sistemas?**\n\nIncluye todo Multi-mandante más control operativo avanzado, trazabilidad para auditorías e integraciones, con marcha blanca asistida y capacitación por perfil.",
+        "**Plazo: hasta 8 semanas.**\n\n**Valor referencial:** $15.718.000 CLP + IVA \n\n**¿Puedo escalar, auditar y conectar con otros sistemas?**\n\nIncluye todo Multi-mandante más control operativo avanzado, trazabilidad para auditorías e integraciones, con marcha blanca asistida y capacitación por perfil.\n\n**Mantención mensual:** **18 UF/mes** ($735.000 CLP).\n\n",
       items: [
         "Todo lo incluido en Multi-mandante",
         "Permisos granulares (RBAC fino por rol y área)",
