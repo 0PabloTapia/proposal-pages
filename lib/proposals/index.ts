@@ -10,6 +10,7 @@ import plataformaAgentesIaMulticlienteMvp from "./plataforma-agentes-ia-multicli
 import mauryJaimeComunicacionOfflineB2g from "./maury-jaime-comunicacion-offline-b2g.config";
 import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-inteligente.config";
 import rodrigoGomezAcademiaMulticlase from "./rodrigo-gomez-academia-multiclase.config";
+import acreditacionMineriaPlataformaDocumental from "./acreditacion-mineria-plataforma-documental.config";
 
 /**
  * Registry of all available proposals.
@@ -29,6 +30,7 @@ const proposals: ProposalConfig[] = [
   mauryJaimeComunicacionOfflineB2g,
   drToothSistemaGestionInteligente,
   rodrigoGomezAcademiaMulticlase,
+  acreditacionMineriaPlataformaDocumental,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
