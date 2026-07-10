@@ -12,6 +12,8 @@ import drToothSistemaGestionInteligente from "./dr-tooth-sistema-gestion-intelig
 import rodrigoGomezAcademiaMulticlase from "./rodrigo-gomez-academia-multiclase.config";
 import acreditacionMineriaPlataformaDocumental from "./acreditacion-mineria-plataforma-documental.config";
 import aaClLogisticaCotizadorMvp2026 from "./aa-cl-logistica-cotizador-mvp-2026.config";
+import carnesOhigginsTrazabilidadProduccion from "./carolina-salinas-trazabilidad-produccion.config";
+
 /**
  * Registry of all available proposals.
  * To add a new proposal:
@@ -32,6 +34,7 @@ const proposals: ProposalConfig[] = [
   rodrigoGomezAcademiaMulticlase,
   acreditacionMineriaPlataformaDocumental,
   aaClLogisticaCotizadorMvp2026,
+  carnesOhigginsTrazabilidadProduccion,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
