@@ -57,7 +57,8 @@ export function PricingCards({ plans, proposalSlug }: PricingCardsProps) {
     proposalSlug === "importadora-altamira-control-inventario" ||
     proposalSlug === "candimania-digital" ||
     proposalSlug === "amstelapp-rio-spa" ||
-    proposalSlug === "carolina-salinas-trazabilidad-produccion";
+    proposalSlug === "carolina-salinas-trazabilidad-produccion" ||
+    proposalSlug === "sergio-yanez-gestion-repuestos";
   const showPhaseBreakdownCard = proposalSlug === "dr-tooth-sistema-gestion-inteligente";
 
   function getMiniCardTitle(): string {

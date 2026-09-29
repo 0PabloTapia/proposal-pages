@@ -13,6 +13,7 @@ import rodrigoGomezAcademiaMulticlase from "./rodrigo-gomez-academia-multiclase.
 import acreditacionMineriaPlataformaDocumental from "./acreditacion-mineria-plataforma-documental.config";
 import aaClLogisticaCotizadorMvp2026 from "./aa-cl-logistica-cotizador-mvp-2026.config";
 import carnesOhigginsTrazabilidadProduccion from "./carolina-salinas-trazabilidad-produccion.config";
+import sergioYanezGestionRepuestos from "./sergio-yanez-gestion-repuestos.config";
 
 /**
  * Registry of all available proposals.
@@ -35,6 +36,7 @@ const proposals: ProposalConfig[] = [
   acreditacionMineriaPlataformaDocumental,
   aaClLogisticaCotizadorMvp2026,
   carnesOhigginsTrazabilidadProduccion,
+  sergioYanezGestionRepuestos,
 ];
 
 export function getProposalBySlug(slug: string): ProposalConfig | undefined {
